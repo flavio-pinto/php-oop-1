@@ -40,9 +40,6 @@ $film1 = new Film('Lost in Translation', 'drammatico', 'Sofia Coppola', '2003', 
 $film2 = new Film('Pulp Fiction', 'gangster', 'Quentin Tarantino', '1994', '214');
 
 //Stampa a schermo info films
-var_dump($film1);
-var_dump($film2);
-
 $film1->print();
 $film2->print();
 
